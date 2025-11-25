@@ -74,6 +74,50 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "TuYYHk0Db",
+      "uuid": "3166d596-e787-433f-ad83-cebeda3f55fb",
+      "firstName": "teste",
+      "lastName": "teste",
+      "username": "teste123",
+      "password": "$2a$10$IUDIgVbrEV2p1hJPI00RAO9dgMf.FRsA2k.8/TzgLES6qbaJCoZAO",
+      "balance": 0,
+      "createdAt": "2025-11-25T20:28:37.339Z",
+      "modifiedAt": "2025-11-25T20:28:37.339Z"
+    },
+    {
+      "id": "xsJo1PDx7",
+      "uuid": "ceb1772c-5afd-49c8-bd92-0f75ad0420f0",
+      "firstName": "teste",
+      "lastName": "teste",
+      "username": "teste",
+      "password": "$2a$10$zOcZEbLwFXa432Fu.F11IONtvuxoWgcsifWF9ohzFeV.jOvw/1RM.",
+      "balance": 0,
+      "createdAt": "2025-11-25T20:29:03.369Z",
+      "modifiedAt": "2025-11-25T20:29:03.369Z"
+    },
+    {
+      "id": "mOVwnIHnR",
+      "uuid": "f752b43a-824e-4696-9ed9-dde7f1b3b001",
+      "firstName": "teste",
+      "lastName": "teste",
+      "username": "teste",
+      "password": "$2a$10$ECzF2tJ1D7hyfEQIJOmIb.AbP69sgA6KypSjvvZaaNGoJa8W6X.c2",
+      "balance": 0,
+      "createdAt": "2025-11-25T20:29:24.532Z",
+      "modifiedAt": "2025-11-25T20:29:24.532Z"
+    },
+    {
+      "id": "PxrVNuJ6I",
+      "uuid": "d593d817-987b-406f-81d6-88ffa58759ff",
+      "firstName": "Matheus",
+      "lastName": "Oliveira",
+      "username": "MatheusO",
+      "password": "$2a$10$26lYiXUUAmmT5sMk.6X4.uc7n6q2N0LxkvIP17qQjS4YyBpNhC/Py",
+      "balance": 0,
+      "createdAt": "2025-11-25T20:30:40.739Z",
+      "modifiedAt": "2025-11-25T20:30:40.739Z"
     }
   ],
   "contacts": [
@@ -253,6 +297,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "WHa4nh9Xl",
+      "uuid": "488539a3-4420-403c-afac-722465ee3fb7",
+      "userId": "PxrVNuJ6I",
+      "bankName": "TESTE",
+      "accountNumber": "123456789",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2025-11-25T20:31:58.780Z",
+      "modifiedAt": "2025-11-25T20:31:58.780Z"
     }
   ],
   "transactions": [
@@ -10038,7 +10093,7 @@
       "userId": "uBmeaz5pX",
       "likeId": "uMrgeJ4MvkFl",
       "transactionId": "tHql3-JH3OSd",
-      "isRead": false,
+      "isRead": true,
       "createdAt": "2023-10-18T08:33:08.846Z",
       "modifiedAt": "2024-03-07T19:37:59.120Z"
     },
