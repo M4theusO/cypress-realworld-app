@@ -1,9 +1,11 @@
+import LoginPage from '../../pages/loginPage';
+
+const loginPage = new LoginPage();
+
 describe('Enviar dinheiro', () => {
   it('Deve enviar dinheiro com sucesso', () => {
-    cy.visit('/signin');
-    cy.get('[data-test="signin-username"]').type('Arvilla_Hegmann');
-    cy.get('[data-test="signin-password"]').type('s3cret');
-    cy.get('[data-test="signin-submit"]').click();
+    loginPage.accessLoginPage();
+    loginPage.loginWithAnyUser('Arvilla_Hegmann', 's3cret');
     cy.location("pathname").should("equal", "/");
     cy.visit('/transaction/new');
     cy.get('[data-test="user-list-item-uBmeaz5pX"]').click();
@@ -14,10 +16,9 @@ describe('Enviar dinheiro', () => {
   });
 
   it('Deve exibir mensagem de erro ao enviar dinheiro sem saldo suficiente', () => {
-    cy.visit('/signin');
-    cy.get('[data-test="signin-username"]').type('Arvilla_Hegmann');
-    cy.get('[data-test="signin-password"]').type('s3cret');
-    cy.get('[data-test="signin-submit"]').click();
+    loginPage.accessLoginPage();
+    loginPage.accessLoginPage();
+    loginPage.loginWithAnyUser('Arvilla_Hegmann', 's3cret');
     cy.location("pathname").should("equal", "/");
     cy.visit('/transaction/new');
     cy.get('[data-test="user-list-item-uBmeaz5pX"]').click();
