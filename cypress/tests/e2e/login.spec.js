@@ -1,6 +1,7 @@
 import LoginPage from '../../pages/loginPage';
 
 const loginPage = new LoginPage();
+const credenciais = require('../../credenciais.json');
 
 describe('Login RWA', () => {
   beforeEach(() => {
@@ -8,13 +9,13 @@ describe('Login RWA', () => {
   });
 
   it('Deve fazer login com um usuário válido', () => {
-    loginPage.loginWithAnyUser('Heath93', 's3cret');
+    loginPage.loginWithAnyUser(credenciais.login.validUser.username, credenciais.login.validUser.password);
     cy.location("pathname").should("equal", "/");
     cy.get("[data-test='transaction-list']").should('be.visible');
   });
 
   it('Deve exibir uma mensagem de erro ao fazer login com credenciais inválidas', () => {
-    loginPage.loginWithAnyUser('Heath93', '123456');
+    loginPage.loginWithAnyUser(credenciais.login.invalidUser.username, credenciais.login.invalidUser.password);
     loginPage.checkAccessInvalid();
   });
 });

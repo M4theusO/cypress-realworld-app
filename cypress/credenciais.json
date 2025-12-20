@@ -1,0 +1,20 @@
+{
+    "login": {
+        "validUser": {
+            "username": "Heath93",
+            "password": "s3cret"
+        },
+        "invalidUser": {
+            "username": "Heath93",
+            "password": "123456"
+        }
+    },
+    "signup": {
+        "newUser": {
+            "firstName": "Joao",
+            "lastName": "Silva",
+            "username": "JoaoSilva123",
+            "password": "senhaSegura"
+        }
+    }
+}

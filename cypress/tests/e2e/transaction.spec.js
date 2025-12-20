@@ -17,7 +17,6 @@ describe('Enviar dinheiro', () => {
 
   it('Deve exibir mensagem de erro ao enviar dinheiro sem saldo suficiente', () => {
     loginPage.accessLoginPage();
-    loginPage.accessLoginPage();
     loginPage.loginWithAnyUser('Arvilla_Hegmann', 's3cret');
     cy.location("pathname").should("equal", "/");
     cy.visit('/transaction/new');

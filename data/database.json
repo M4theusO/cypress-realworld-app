@@ -74,6 +74,28 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "joaQoZsYS",
+      "uuid": "509fe93d-4915-4adf-afb5-aeb543ae3943",
+      "firstName": "Joao",
+      "lastName": "Silva",
+      "username": "JoaoSilva123",
+      "password": "$2a$10$cPFP9ebP/bP8fOkvpw1SaeZpjL6yLxXU6aXCrw0qvlaIf20QcDH3m",
+      "balance": 0,
+      "createdAt": "2025-12-20T03:43:22.189Z",
+      "modifiedAt": "2025-12-20T03:43:22.189Z"
+    },
+    {
+      "id": "ErHCLc23P",
+      "uuid": "4ca8d91d-b6c4-40be-b5db-0f267ec0364d",
+      "firstName": "Joao",
+      "lastName": "Silva",
+      "username": "JoaoSilva123",
+      "password": "$2a$10$eQGf439rzeDijwFfkxP/nOPrKu6CENQCpBUfMnkrCnw9Bta3SuYjm",
+      "balance": 0,
+      "createdAt": "2025-12-20T03:43:34.492Z",
+      "modifiedAt": "2025-12-20T03:43:34.492Z"
     }
   ],
   "contacts": [
