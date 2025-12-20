@@ -74,17 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "rmz5pT_pJ",
-      "uuid": "502ed5e8-35d7-4a82-a891-31b486c57601",
-      "firstName": "Matheus",
-      "lastName": "de Oliveira",
-      "username": "M4theus",
-      "password": "$2a$10$jLWiPvLDbxHpbGcn/jcA8ebwZwq/waxyRjh9q.7EvYsL8XTgeF.Fe",
-      "balance": 0,
-      "createdAt": "2025-12-10T13:25:50.225Z",
-      "modifiedAt": "2025-12-10T13:25:50.225Z"
     }
   ],
   "contacts": [
@@ -264,17 +253,6 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
-    },
-    {
-      "id": "2nCtIsmSa",
-      "uuid": "f53e5d4c-721b-438c-b417-4199d1a34622",
-      "userId": "rmz5pT_pJ",
-      "bankName": "TESTE",
-      "accountNumber": "100000000",
-      "routingNumber": "100000000",
-      "isDeleted": false,
-      "createdAt": "2025-12-10T13:26:11.327Z",
-      "modifiedAt": "2025-12-10T13:26:11.327Z"
     }
   ],
   "transactions": [
